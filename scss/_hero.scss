@@ -1,0 +1,71 @@
+#hero{
+    display: block;
+    background-image: url(../images/hero-img.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    
+}
+#hero h1{
+    position: relative;
+    top: 8.5vh;
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    color: white;
+}
+#hero p{
+    position: relative;
+    top: 8vh;
+    display: block;
+    width: fit-content;
+    font-size: 1.7rem;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+#hero .social{
+    position: relative;
+    display: inline-block;
+    height: 6.6rem;
+    width: 6.6rem;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);
+    transition: .6s ease background-color;
+}
+#hero .social:hover{
+    background-color:#18D26E;
+    cursor: pointer;
+}
+#hero .icon{
+    position: absolute;
+    height: 4.4rem;
+    width: 4.4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hero .social-icon{
+    position: relative;
+    top: 9vh;
+    display: flex;
+    justify-content: center;
+}
+#hero .cta{
+    padding: .5rem 2.5rem .9rem 2.5rem;
+    font-size: 2.2rem;
+    font-weight: regular;
+    color: white;
+    background-color: transparent;
+    border: .2rem solid #18d26e;
+    border-radius: 4rem;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+} 
+#hero .cta:hover{
+    background-color: #18d26e;
+    cursor: pointer;
+}    

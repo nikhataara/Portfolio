@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1024px){
+    #projects .projects, #certifications .certifications{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 3rem;
+        row-gap: 3rem;
+    }
+    #contact{
+        height: 15rem;
+    }
+    #contact .contact{
+        display: grid;
+        grid-template-areas: 'a         c'
+                            'b       d ';
+    }
+    .cp{
+        bottom:12%;
+    }
+    .cc{
+        bottom: 4%;
+    }
+    #contact .Social-Profiles{
+        grid-area: a;
+    }
+    #contact .social-icons{
+        grid-area: b;
+    }
+    #contact .mail{
+        grid-area: c;
+        margin-left: 1.5rem;
+    }
+    #contact .location{
+        grid-area: d;
+        flex-direction: row-reverse;
+    }
+    #contact .mail a{
+        margin-right: .5rem;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1023px){
+    #projects .projects, #certifications .certifications{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2.2rem;
+        row-gap: 2.2rem;
+    }
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 950px){
+    #projects .projects, #certifications .certifications{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+    
+}
+

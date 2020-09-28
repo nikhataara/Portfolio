@@ -1,0 +1,51 @@
+#projects{
+    padding: 0 2rem;
+    margin-top: 3.25rem;
+}
+
+#projects .projects{
+    margin-top: 2.5rem;
+    display: grid;
+    row-gap: 2rem;
+}
+
+#projects .project-box{
+    display: block;
+    height: 23rem;
+    width: inherit;
+    background-color: #2B2B2B;
+    border-radius: 3rem;
+    overflow: hidden;
+    transition: .6s ease;
+}
+
+#projects .project-box:hover{
+    background-color: #18D26E;
+}
+
+
+#projects .pro-img{
+    height: 50%;
+    background-size: cover;
+    background-position: top center;
+}
+
+#projects .text-box{
+    padding: 0.8rem 1.5rem;
+}
+
+#projects .pro-name{
+    color: white;
+    margin-top: .4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#projects .pro-description{
+    color: white;
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    word-wrap: break-word;
+}

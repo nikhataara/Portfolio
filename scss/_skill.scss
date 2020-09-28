@@ -1,0 +1,50 @@
+#skill{
+    padding: 0 2rem;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.title{
+    display: inline-block;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: normal;
+    position: relative;
+}
+
+.title::after{
+    content: '';
+    position: relative;
+    display: block;
+    height: .2rem;
+    bottom: -.2rem;
+    background: rgba(24, 210, 110, 1);
+}
+
+#skill .skill{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+#skill .skill-name span{
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+#skill .skill-bar .bar{
+    margin: .4rem 0;
+    background-color: #2B2B2B;
+    width: inherit;
+    height: 1.7rem;
+    border-radius: .7rem;
+    overflow: hidden;
+}
+
+#skill .progress{
+    height: inherit;
+    background-color: #18D26E;
+}

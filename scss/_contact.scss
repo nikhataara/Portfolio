@@ -1,0 +1,100 @@
+#contact{
+    background-color: #18d26e;
+    height: 23rem;
+    margin-top: 4rem;
+    padding: 3rem 0 4rem 0;
+    position: relative;
+}
+
+#contact .contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact .Social-Profiles{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#contact .social-icons a:not(:last-child){
+    margin-right: 0.8rem;
+}
+
+#contact .social-icons{
+    margin: .6rem 0;
+}
+
+#contact .f-icon{
+    height: 3rem;
+    width: 3rem;
+    transition: fill .4s ease;
+}
+
+#contact .g-icon{
+    height: 2.7rem;
+    width: 2.7rem;
+    margin-right: 1rem;
+}
+
+#contact .mail{
+    display: flex;
+    justify-content: centre;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    
+} 
+#contact .location{
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#contact .mail a{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+#contact .location a{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+#contact .l-icon{
+    height: 3.7rem;
+    margin-right: 1rem;
+}
+
+.cc a{
+    color: black;
+    font-size: 1rem;
+}
+
+.cc{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%);
+    color: black;
+    font-size: 1rem;
+}
+
+.copyright{
+    font-size: 1.1rem;
+}
+.cp{
+    position: absolute;
+    bottom: 9.5%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%);
+    color: black;
+    font-size: 1rem;
+}

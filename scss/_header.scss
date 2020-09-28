@@ -1,0 +1,113 @@
+#header{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+#header .header{
+    min-height: 8vh;
+    background-color:#1A181B ;
+    box-shadow:0 0px 10px rgba(24, 210, 110, 0.15);
+}
+#header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 20px;
+}
+#header .brand h1{
+    color: white;
+    font-size: 2rem;
+}
+#header .desktop a{
+    display: inline-block;
+    color :white;
+    font-size: 1.7rem;
+    margin-left: 2.7rem;
+    transition: .4s ease;
+}
+#header .desktop a::after{
+    content: '';
+    position: relative;
+    display: block;
+    height: .2rem;
+    bottom: -1.4rem;
+    border-radius: 30px;
+    opacity: 0;
+    transition: .6s ease;
+}
+#header .desktop a:hover::after{
+    animation: grow 500ms forwards;
+    background: rgba(24, 210, 110, 1);
+    border-radius: 30px;
+}
+#header .desktop a:hover{
+    color: rgba(24, 210, 110, 1);
+}
+#header .navlist ul{
+    list-style: none;
+    position: absolute;
+    background-color: #1A181B;
+    border-radius: 20px;
+    width: 200px;
+    height: 37vh;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,2%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#header .navlist ul a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    transition: .5s ease color;
+}
+#header .navlist a:hover{
+    color: rgba(24, 210, 110, 1);
+    cursor: pointer;
+}
+#header .overlay{
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    position: fixed;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient(rgba(24, 210, 110, .6), transparent);
+}
+#header .hamberger span{
+    display: block;
+    width: 2.2rem;
+    height: .3rem;
+    background-color: white;
+    transform-origin: 2.5px;
+    transition: all 400ms ease-in-out;
+}
+#header .hamberger span:not(:last-child){
+    margin-bottom: 3px;
+}
+#header .open span:first-child{
+    border-radius: 8px;
+    background-color: rgba(24, 210, 110, 1);
+    transform: rotate(45deg);
+
+}
+#header .open span:nth-child(2){
+    opacity: 0;
+}
+#header .open span:last-child{
+    border-radius: 8px;
+    background-color: rgba(24, 210, 110, 1);
+    transform: rotate(-45deg);
+}

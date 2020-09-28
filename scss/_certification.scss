@@ -1,0 +1,51 @@
+#certifications{
+    padding: 0 2rem;
+    margin-top: 3.25rem;
+}
+
+#certifications .certifications{
+    margin-top: 2rem;
+    display: grid;
+    row-gap: 2rem;
+}
+
+#certifications .certi-box{
+    height: 35rem;
+    background-color: #2B2B2B;
+    border-radius: 3rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.6s ease;
+}
+
+.certi-icon{
+    height: 11rem;
+    width: 17.6rem;
+    filter: drop-shadow(-10px 0 0 rgba(138, 137, 137, 0.23));
+    transition: 0.6s ease;
+}
+
+.int{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.int-des{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#certifications .certi-box:hover{
+    background-color: #18D26E;
+}
+
+.certi-box:hover #icon-137{
+    fill:white;
+}
